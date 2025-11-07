@@ -6,14 +6,31 @@
   <title>Verifikasi Digital - PT HRS</title>
   <style>
     body { font-family: Arial, sans-serif; text-align: center; background: #f7f7f7; padding-top: 80px; }
-    .card { background: white; padding: 30px; border-radius: 12px; display: inline-block; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
-    h1 { color: #004aad; }
+    .card {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  display: inline-block;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border: 10px solid #004aad; /* ✅ Tambahkan baris ini */
+}
+
+  color: #004aad;
+  margin: 0; /* Hilangkan jarak atas-bawah */
+  padding: 0;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto; /* Tengah, tanpa jarak bawah */
+}
+
     .status { color: green; font-weight: bold; margin: 10px 0; }
   </style>
 </head>
 <body>
   <div class="card">
-    <h1><img src="LOGO_HRS.png" alt="Logo PT Hansur Riung Sinergi" class="logo" width="175" height="136"></h1>
+    <img src="LOGO_HRS.png" alt="Logo PT Hansur Riung Sinergi" class="logo" width="105" height="86">
     <h1>PT Hansur Riung Sinergi</h1>
     <h2>Sistem Verifikasi Digital</h2>
     <p class="status">✅ DOKUMEN SAH</p>
@@ -25,4 +42,3 @@
   </div>
 </body>
 </html>
-
